@@ -14,7 +14,7 @@ function areaOfFigures(input){
     }else if (shape === "triangle"){
         let side = Number(input[1]);
         let height = Number(input[2]);
-        area = 0.5 * side * height;
+        area = (side * height) / 2;
     }
     console.log(area.toFixed(3))
 }
