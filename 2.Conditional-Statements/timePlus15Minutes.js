@@ -18,3 +18,4 @@ function timePlus15Minutes(input){
 timePlus15Minutes(["0", "01"]);
 timePlus15Minutes(["23", "59"]);
 timePlus15Minutes(["12", "49"]);
+timePlus15Minutes(["1", "46"]);
