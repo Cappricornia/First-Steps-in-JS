@@ -2,14 +2,13 @@ function summerOutfit(input){
     let degrees = Number(input[0]);
     let timeOfDay = input[1];
 
-    let outfit = "";
-    let shoes = "";
+    let outfit;
+    let shoes;
     
     if (degrees < 10){
         console.log("Today is quite chilly. Make sure to dress warmly.")
         return;
     }
-
 
     if (timeOfDay == "Morning"){
         if (degrees >= 10 && degrees <= 18){
