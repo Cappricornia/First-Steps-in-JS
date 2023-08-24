@@ -2,7 +2,7 @@ function journey(input){
     let budget = Number(input[0]);
     let season = input[1];
 
-    let totalPRice = 0.0;
+    let totalPrice = 0.0;
     let destination;
     let accommodation;
 
@@ -10,31 +10,30 @@ function journey(input){
         destination = "Bulgaria";
         if (season == "summer"){
             accommodation = "Camp";
-            totalPRice += budget * 0.3;
+            totalPrice += budget * 0.3;
         } else if (season == "winter"){
             accommodation = "Hotel";
-            totalPRice += budget * 0.7;
+            totalPrice += budget * 0.7;
         }
 
     } else if (budget > 100 && budget <= 1000){
         destination = "Balkans";
         if (season == "summer"){
             accommodation = "Camp";
-            totalPRice += budget * 0.4;
+            totalPrice += budget * 0.4;
         } else if (season == "winter"){
             accommodation = "Hotel";
-            totalPRice += budget * 0.8;
+            totalPrice += budget * 0.8;
         }
 
     } else {
         destination = "Europe";
         accommodation = "Hotel";
-        totalPRice += budget * 0.9;
+        totalPrice += budget * 0.9;
     }
 
-    console.log(`Somewhere in ${destination}\n${accommodation} - ${totalPRice.toFixed(2)}`)
+    console.log(`Somewhere in ${destination}\n${accommodation} - ${totalPrice.toFixed(2)}`)
 }
-
 journey(["50", "summer"]);
 journey(["75", "winter"]);
 journey(["312", "summer"]);
