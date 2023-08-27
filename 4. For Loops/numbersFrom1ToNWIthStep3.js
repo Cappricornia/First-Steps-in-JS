@@ -5,5 +5,7 @@ function numbersFrom1ToNWithStep3(input){
         console.log(i);
     }
 }
+
+
 numbersFrom1ToNWithStep3(["10"]);
 numbersFrom1ToNWithStep3(["15"]);
