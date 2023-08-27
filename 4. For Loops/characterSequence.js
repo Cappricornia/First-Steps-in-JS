@@ -8,4 +8,6 @@ function characterSequence(input) {
       }
 }
 
-characterSequence(["revolution"])
+characterSequence(["revolution"]);
+characterSequence(["transformation"]);
+characterSequence(["willpower"]);
