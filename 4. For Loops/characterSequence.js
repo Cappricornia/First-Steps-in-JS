@@ -11,3 +11,4 @@ function characterSequence(input) {
 characterSequence(["revolution"]);
 characterSequence(["transformation"]);
 characterSequence(["willpower"]);
+characterSequence(["mindfulness"]);
