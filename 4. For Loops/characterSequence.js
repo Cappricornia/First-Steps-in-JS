@@ -12,3 +12,4 @@ characterSequence(["revolution"]);
 characterSequence(["transformation"]);
 characterSequence(["willpower"]);
 characterSequence(["mindfulness"]);
+characterSequence(["mind your business"])
