@@ -23,4 +23,5 @@ areaOfFigures(["square", "5"]);
 areaOfFigures(["rectangle", "7","2.5"]);
 areaOfFigures(["circle","6"]);
 areaOfFigures(["triangle","4.5","20"]);
+areaOfFigures(["triangle","5","7"])
 
