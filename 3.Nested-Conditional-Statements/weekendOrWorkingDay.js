@@ -21,3 +21,4 @@ function weekendOrWorkingDay(input){
 
 weekendOrWorkingDay(["Monday"]);
 weekendOrWorkingDay(["Saturday"]);
+weekendOrWorkingDay(["Sunday"]);
