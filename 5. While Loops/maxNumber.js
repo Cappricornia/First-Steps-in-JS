@@ -19,8 +19,6 @@ function maxNumber(input){
     }
 
     console.log(maxNum);
-
-
 }
 
 maxNumber(["100","99","80","70","Stop"]);
