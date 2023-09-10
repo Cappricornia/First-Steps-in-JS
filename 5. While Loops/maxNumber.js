@@ -14,7 +14,6 @@ function maxNumber(input){
         if (currentNum > maxNum){
             maxNum = currentNum;
         }
-      
         index ++;
     }
 
