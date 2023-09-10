@@ -5,7 +5,7 @@ function minNumber(input){
 
     while (true){
         data = input[index]
-        let currentNum = Number(input[index]);
+        let currentNum = Number(data);
 
         if (data === "Stop"){
             break;
