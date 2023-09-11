@@ -1,39 +1,34 @@
 function oscars(input) {
-    let actorName = input[0];
-    let initialPoints = Number(input[1]);
-    let jury = Number(input[2]);
-    let totalPoints = 0.0; 
-    let isNominee = false;
-  
-    for (let i = 3; i < input.length; i += 2) {
-      let actor = input[i];
-      let points = parseFloat(input[i + 1]);
-      let currentPoints = 0.0;
+    let index = 0;
+    let actorName = input[index];
+    index ++;
+    let totalPoints = Number(input[index]);
+    index ++;
+    let jury = Number(input[index]);
+    index ++; 
+    
+    for (let i = 0; i < jury; i ++) {
+      let actor = input[index];
+      index ++;
+      let points = Number(input[index]);
+      index ++;
      
-      if (points === 0){
-        // if points 0 skip the points
-        currentPoints = initialPoints + (actor.length / 2);
-      } else{
-        currentPoints = initialPoints + (actor.length * points) / 2;
-      }
-
-      totalPoints = currentPoints; 
+      let currentPoints = actor.length * points / 2;
+      totalPoints += currentPoints; 
       
   
-      if (currentPoints >= 1250.5) {
-        isNominee = true;
-        break;
+      if (totalPoints > 1250.5) {
+         console.log(`Congratulations! ${actorName} got a nominee for leading role with ${totalPoints.toFixed(1)}!`);
+         break;
       }
-      initialPoints = currentPoints;
-     
+
     }
     
-    if (isNominee) {
-      console.log(`Congratulations! ${actorName} got a nominee for leading role with ${totalPoints.toFixed(1)}!`);
-    } else {
-        let diff = 1250.5 - totalPoints;
-        console.log(`Sorry, ${actorName}, you need ${diff.toFixed(1)} more!`);
+    if (totalPoints <= 1250.5){
+      let diff = Math.abs(1250.5 - totalPoints);
+      console.log(`Sorry, ${actorName}, you need ${diff.toFixed(1)} more!`);
     }
+
   }
   
   
