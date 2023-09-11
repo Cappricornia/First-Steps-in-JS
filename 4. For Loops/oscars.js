@@ -33,7 +33,7 @@ function oscars(input) {
   
   
 
-oscars(["Gwyneth Paltrow","0","4","Johnny Depp","0","Will Smith","0","Jet Lee","0","Matthew Mcconaughey","0"]);
+oscars(["Gwyneth Paltrow","100","4","Johnny Depp","0","Will Smith","0","Jet Lee","0","Matthew Mcconaughey","0"]);
 
 oscars(["Sandra Bullock","340","5", "Robert De Niro","50","Julia Roberts","40.5","Daniel Day-Lewis","39.4","Nicolas Cage","29.9","Sylvester Stallone","33"]);
 
