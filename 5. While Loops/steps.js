@@ -1,5 +1,5 @@
 function steps(input){
-    let goal = 10000;
+    const goal = 10000;
     index = 0;
     let totalSteps = 0;
     let isGoalReached = false;
