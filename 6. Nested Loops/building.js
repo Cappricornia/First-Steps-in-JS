@@ -5,10 +5,10 @@ function building(input){
 
     for (let f = floors; f > 0; f--){
         let floorLine = " ";
-
+        
         for (let a = 0; a < appartments; a++){
             if (f === floors){
-                floorLine += `L${f}${a}`+ " "; // top floor olways Large app - L + floor number + large appartment number
+                floorLine += `L${f}${a}`+ " "; // top floor always Large app - L + floor number + large appartment number
             }else if (f % 2 === 0){
                 floorLine += `O${f}${a}` + " "; // office - O + floor number + office number
             } else if(f % 2 === 1){
