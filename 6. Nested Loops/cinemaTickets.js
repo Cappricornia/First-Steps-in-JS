@@ -6,13 +6,12 @@ function cinemaTickets(input){
     let kidCounter = 0;
     let totalTicketsCount = 0;
 
-
     while (command !== "Finish"){
         let film = command;
         index ++;
         let freeSeats = parseInt(input[index]);
         index ++;
-
+        
         let ticketType = input[index];
         let ticketCounter = 0;
 
@@ -31,16 +30,13 @@ function cinemaTickets(input){
                 break;
             }
 
-            ticketType = input[++index];
-            
+            ticketType = input[++index];     
         }
         totalTicketsCount += ticketCounter;
         let resultPerFilm = ticketCounter / freeSeats * 100;
 
         console.log(`${film} - ${resultPerFilm.toFixed(2)}% full.`);
         command = input[++index];
-   
-
  }
  console.log(`Total tickets: ${totalTicketsCount}`);
  console.log(`${(studentCounter / totalTicketsCount * 100).toFixed(2)}% student tickets.`);
