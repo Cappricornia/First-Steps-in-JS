@@ -45,7 +45,7 @@
 - Numbers: Represented as floating-point numbers, supporting both integers and decimals.
 - Strings: Sequences of characters, enclosed in single (''), double (""), or backticks (``) for template literals.
 -  Booleans: Represent true or false values.
--  ull and Undefined: Represent the absence of value. null is explicitly assigned, while undefined is the default value for uninitialized variables.
-- A rrays: Ordered collections of values, accessed by indices starting from 0.
+-  Null and Undefined: Represent the absence of value. null is explicitly assigned, while undefined is the default value for uninitialized variables.
+- Arrays: Ordered collections of values, accessed by indices starting from 0.
 - Functions: Blocks of reusable code. Can be assigned to variables, passed as arguments, and returned from other functions.
 
