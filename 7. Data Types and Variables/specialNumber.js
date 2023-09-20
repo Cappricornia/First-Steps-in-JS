@@ -15,10 +15,9 @@ function specialNumber(num){
             }
 
         } else{
-            currNumTostr = currDigit.toString()
+            currNumTostr = currDigit.toString();
             for (let j = 0; j<currNumTostr.length; j++){
-                sum += parseInt(currNumTostr[j])
-               
+                sum += parseInt(currNumTostr[j]);
             }
 
             if (sum === 5 || sum === 7 || sum === 11){
@@ -28,10 +27,9 @@ function specialNumber(num){
             }
         }
         console.log(`${currDigit} -> ${trueOrFalse}`);
-
     }
 
 }
 
-specialNumber(20)
+specialNumber(20);
 
