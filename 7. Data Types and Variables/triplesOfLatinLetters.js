@@ -14,4 +14,4 @@ function triplesOfLatinLetters(num){
     }
 }
 
-triplesOfLatinLetters(3)
+triplesOfLatinLetters(2)
