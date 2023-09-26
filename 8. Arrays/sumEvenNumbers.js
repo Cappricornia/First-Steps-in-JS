@@ -4,7 +4,7 @@ function sumEvenNumbers(arr){
     for (let i=0; i< arr.length; i++){
         let number = Number(arr[i]);
 
-        if (number % 2 === 0){
+        if (!isNaN(number) && number % 2 === 0){
             sumEven += number;
         }
     }
