@@ -13,7 +13,6 @@ function evenAndOddSubtraction(arr){
         }
     }
 
-    //console.log(`The sum of the even numbers is: ${sumEven}.`);
     let diff = sumEven - sumOdd;
     console.log(`The difference between the sum of the even and odd numbers in the array is ===> ${diff}`);
 }
