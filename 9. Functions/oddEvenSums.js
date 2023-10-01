@@ -15,4 +15,4 @@ function calculateOddEvenSum(n){
     console.log(`Odd sum = ${oddSum}, Even sum = ${evenSum}`);
 }
 
-calculateOddEvenSum( 3495892137259234);
+calculateOddEvenSum(3495892137259234);
