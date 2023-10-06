@@ -2,11 +2,10 @@ function Employees(employeeList) {
     const employeeData = {};
   
     for (const employee of employeeList) {
-      const personalNum = employee.length; // Length of the name (including whitespaces)
+      const personalNum = employee.length; 
       employeeData[employee] = personalNum;
     }
   
-    // Print the employee data in the specified format
     for (const [employee, personalNum] of Object.entries(employeeData)) {
       console.log(`Name: ${employee} -- Personal Number: ${personalNum}`);
     }
