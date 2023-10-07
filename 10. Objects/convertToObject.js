@@ -15,7 +15,6 @@ function convertToObject(jsonString) {
   }
   
   const jsonString = '{"name": "George", "age": 40, "town": "Sofia"}';
-  //const jsonString = "Simple";  // wrong format
  // const jsonString = [23, "ABC", false]; // wrong format
   
   const result = convertToObject(jsonString);
