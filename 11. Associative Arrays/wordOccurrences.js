@@ -13,7 +13,7 @@ function wordOccurrences(input){
             }
         }
     }
-
+    // words sorted by count in descending order
     const sortedArray = Array.from(wordCount.entries()).sort((a, b) => b[1] - a[1]);
 
     for (const [key, value] of sortedArray) {
