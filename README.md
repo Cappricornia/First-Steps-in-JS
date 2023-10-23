@@ -50,3 +50,5 @@
 - Arrays: Ordered collections of values, accessed by indices starting from 0.
 - Functions: Blocks of reusable code. Can be assigned to variables, passed as arguments, and returned from other functions.
 
+## Regular Expressions (Regex): 🇷 /^aBc235cGm@12$/
+-Basics of regex usage for pattern matching and text manipulation.
